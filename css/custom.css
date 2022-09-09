@@ -8,3 +8,20 @@
   */
 
 /*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
+
+:root{
+    --primary-color: #1a4a71;
+    --secondary-color: #db822f;
+    --dark-color: #292929;
+    --white-color: #e7e7e7;
+    
+}
+
+navbar .pages>a{
+
+}
+
+nav-item .pages>a:hover{
+    color: var(--white-color);
+    opacity: 0.75;
+}
