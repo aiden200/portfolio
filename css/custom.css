@@ -25,3 +25,34 @@ nav-item .pages>a:hover{
     color: var(--white-color);
     opacity: 0.75;
 }
+
+
+/* Grid Layout */
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Individual Items */
+.single-item {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-basis: 50%; /* Adjust this value based on your layout preference */
+  padding: 10px; /* Space between items */
+}
+
+/* Image Container */
+.portfolio-wrapper {
+  width: 100%; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  overflow: hidden; /* Hide parts of the image that overflow */
+}
+
+/* Image Styling */
+.portfolio-wrapper img {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
